@@ -58,7 +58,7 @@
             border-radius: 4px;
             cursor: pointer;}
 .m-button:hover,
-.button.primary:focus {
+.m-button.primary:focus {
         background-color: #188ce8;
         color: white;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -108,3 +108,42 @@
     /* or 171% */
     letter-spacing: 0.03em;
     color:rgba(255, 255, 255, 0.6)}
+
+        .portfolio-button {
+            ont-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+                /* identical to box height, or 162% */
+                text-align: center;
+                letter-spacing: 0.03em;
+                color: #212121;
+                background: #F5F4FA;
+                border-radius: 4px;
+                cursor: pointer;
+        }
+    
+        .portfolio-button:hover,
+        .portfolio-button.primary:focus {
+            background-color: #188ce8;
+            color: white;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+        }
+    .poster-title {ont-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        /* identical to box height, or 200% */
+        letter-spacing: 0.06em;
+        color: #212121;}
+    .description-poster{font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,87;
+        /* identical to box height, or 188% */
+        letter-spacing: 0.03em;
+        color: #757575;}
