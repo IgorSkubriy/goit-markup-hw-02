@@ -20,6 +20,7 @@
 /* header */
 
 .logo {
+    font-family: 'Raleway' , sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
@@ -29,6 +30,7 @@
 }
 
 .logo-accent {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
@@ -42,7 +44,7 @@
     font-size: 14px;
     line-height: 1.43;
     letter-spacing: 0.02em;
-    color: var (--title-text-color);
+    color: var(--title-text-color);
 }
 
 .menu-link:hover,
@@ -75,6 +77,7 @@
     /* or 136% */
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 
@@ -83,6 +86,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.86;
+    font-family: 'Roboto', sans-serif;
     /* identical to box height, or 188% */
     display: flex;
     align-items: center;
@@ -109,7 +113,8 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: var (--title-text-color);
+    text-transform: uppercase;
+    color: var(--title-text-color);
         
 }
 
@@ -130,7 +135,7 @@
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var (--title-text-color);
+    color: var(--title-text-color);
 }
 
 
@@ -172,7 +177,7 @@
 
 
 .portfolio-button {
-
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -197,16 +202,18 @@
 
 
 .poster-title {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
      /* identical to box height, or 200% */
      letter-spacing: 0.06em;
-    color: var (--title-text-color);
+    color: var(--title-text-color);
 }
 
 .description-poster {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
